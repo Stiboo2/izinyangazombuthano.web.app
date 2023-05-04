@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./BirthDay.css";
 const List = ({ people }) => {
   return (
     <>
