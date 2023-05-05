@@ -1,13 +1,22 @@
 import BirthDay from "./components/BirthDays/BirthDay";
 import React from "react";
 import ShowCouples from "./components/TwoByTwo/ShowCouples";
-
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./components/Home";
+import RootLayout from "./components/Root";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/birthday", element: <BirthDay /> },
+      { path: "/showcouples", element: <ShowCouples /> },
+    ],
+  },
+]);
 function App() {
-  return (
-    <React.StrictMode>
-      <ShowCouples />
-    </React.StrictMode>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
