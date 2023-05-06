@@ -4,10 +4,13 @@ import ShowCouples from "./components/TwoByTwo/ShowCouples";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
 import RootLayout from "./components/Root";
+import Error from "./components/Error";
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <Error />,
     children: [
       { path: "/", element: <Home /> },
       { path: "/birthday", element: <BirthDay /> },
