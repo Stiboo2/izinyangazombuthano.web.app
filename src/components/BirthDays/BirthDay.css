@@ -17,13 +17,17 @@ main {
 .container h3 {
   font-weight: normal;
   text-transform: none;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .person {
   display: grid;
   grid-template-columns: auto 1fr;
-  column-gap: 0.75rem;
+  column-gap: 0.2rem;
   margin-bottom: 1.5rem;
+  align-items: center;
+
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .person img {
@@ -32,6 +36,7 @@ main {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: var(--light-shadow);
+  margin-right: 2rem;
 }
 .person h4 {
   margin-bottom: 0.35rem;

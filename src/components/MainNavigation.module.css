@@ -14,6 +14,8 @@
 .list a {
   text-decoration: none;
   color: var(--color-primary-400);
+  color: rgb(218, 36, 36);
+  font-weight: bold; /* Add this line */
 }
 
 .list a:hover,
