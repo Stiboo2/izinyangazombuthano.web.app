@@ -22,7 +22,7 @@ const Couple = ({ id, image, info, name, price, removeCouple }) => {
           </p>
 
           <button className="delete-btn" onClick={() => removeCouple(id)}>
-            not interested
+            I'm Done
           </button>
         </footer>
       </article>
