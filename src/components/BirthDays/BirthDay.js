@@ -19,7 +19,7 @@ const BirthDay = () => {
     setMeals([]);
   };
   return (
-    <main>
+    <main className="main_bd">
       <section className="container_bd">
         <div className="title_rv">
           <h2>BirthDay List</h2>
