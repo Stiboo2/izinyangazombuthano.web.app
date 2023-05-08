@@ -14,7 +14,7 @@ export const getIdPhoto = async () => {
       name: responseData[key].name,
       image: responseData[key].image,
       text: responseData[key].text,
-      title: responseData[key].title,
+      job: responseData[key].title,
     });
   }
 

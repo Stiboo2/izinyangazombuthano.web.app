@@ -20,10 +20,16 @@ const BirthDay = () => {
   };
   return (
     <main>
-      <section className="container">
+      <section className="container_bd">
+        <div className="title_rv">
+          <h2>BirthDay List</h2>
+          <div className="underline_rv"></div>
+        </div>
         <h3>{meals.length} birthdays today</h3>
         <List people={meals} />;
-        <button onClick={clearHandleButton}>clear all</button>
+        <button className="button_bd" onClick={clearHandleButton}>
+          clear all
+        </button>
       </section>
     </main>
   );

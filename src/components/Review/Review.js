@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getIdPhoto } from "../Doctors/IdData";
-import "./Review.css";
+
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 import Loading from "../Tools/Loading";
 
@@ -81,7 +81,7 @@ const Review = () => {
           <FaChevronRight />
         </button>
       </div>
-      <button className="random-btn" onClick={randomPerson}>
+      <button className="random_btn" onClick={randomPerson}>
         surprise me
       </button>
     </article>

@@ -5,7 +5,7 @@ main {
   align-items: center;
 }
 
-.container {
+.container_bd {
   width: 90vw;
   margin: 5rem 0;
   max-width: var(--fixed-width);
@@ -44,7 +44,7 @@ main {
 .person p {
   margin-bottom: 0;
 }
-.container button {
+.button_bd {
   color: var(--clr-white);
   display: block;
   width: 100%;
@@ -58,4 +58,9 @@ main {
   border-radius: var(--radius);
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
+}
+.container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
