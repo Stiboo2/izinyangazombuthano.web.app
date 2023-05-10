@@ -38,6 +38,16 @@ const MainNavigation = () => {
           </li>
           <li>
             <NavLink
+              to="socials"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Show Socials
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="birthday"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined

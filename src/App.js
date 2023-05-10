@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import RootLayout from "./components/Root";
 import Error from "./components/Error";
 import Reviews from "./components/Review/Reviews";
+import Socials from "./components/Events/Socials";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: "birthday", element: <BirthDay /> },
       { path: "showcouples", element: <ShowCouples /> },
       { path: "review", element: <Reviews /> },
+      { path: "socials", element: <Socials /> },
     ],
   },
 ]);
