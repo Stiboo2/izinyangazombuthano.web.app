@@ -166,11 +166,12 @@ Menu_sc
   margin-left: auto;
   margin-right: auto;
 }
-.btn-container {
+.btn-container_sc {
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
 }
+
 .filter-btn {
   background: transparent;
   border-color: transparent;

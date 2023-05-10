@@ -11,7 +11,7 @@ export const getEvents = async () => {
   for (const key in responseData) {
     loadedEvents.push({
       id: key,
-      title: responseData[key].branch,
+      category: responseData[key].branch,
       date: responseData[key].date,
       desc: responseData[key].disc,
       image: responseData[key].image,
