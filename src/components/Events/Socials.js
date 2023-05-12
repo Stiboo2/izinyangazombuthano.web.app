@@ -52,8 +52,8 @@ const Socials = () => {
 
   return (
     <main>
-      <section className="menu_sc">
-        <Title text="Our Social Event" />
+      <section className="section_sc menu_sc">
+        <Title className="event-title" text="Our Social Event" />
         <Categories categories={categories} filterItems={filterItems} />
         <Event items={eventItems} />
       </section>

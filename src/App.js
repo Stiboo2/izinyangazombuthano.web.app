@@ -7,6 +7,7 @@ import RootLayout from "./components/Root";
 import Error from "./components/Error";
 import Reviews from "./components/Review/Reviews";
 import Socials from "./components/Events/Socials";
+import Mothers from "./components/Mothers/Mothers";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: "showcouples", element: <ShowCouples /> },
       { path: "review", element: <Reviews /> },
       { path: "socials", element: <Socials /> },
+      { path: "mothers", element: <Mothers /> },
     ],
   },
 ]);

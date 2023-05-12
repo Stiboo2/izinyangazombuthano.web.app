@@ -123,7 +123,7 @@ p {
 /* section */
 .section {
   width: 90vw;
-  margin: 0 auto;
+  margin: 1rem auto; /* Adjusted margin-top value */
   max-width: var(--max-width);
 }
 

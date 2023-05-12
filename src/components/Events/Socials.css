@@ -124,10 +124,11 @@ p {
 /*  global classes */
 
 /* section */
-.section {
+.section_sc {
   width: 90vw;
-  margin: 0 auto;
+  margin: -5rem auto; /* Adjusted margin-top value */
   max-width: var(--max-width);
+  margin-left: -45%; /* Add this line to adjust the position to the left */
 }
 
 @media screen and (min-width: 992px) {
@@ -170,8 +171,12 @@ Menu_sc
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
+  margin-left: 3%; /* Corrected property name */
 }
-
+.event-title {
+  text-align: left;
+  margin-left: 50rem; /* Adjust the margin value as desired */
+}
 .filter-btn {
   background: transparent;
   border-color: transparent;
@@ -196,7 +201,9 @@ Menu_sc
   display: grid;
   gap: 3rem 2rem;
   justify-items: center;
+  margin-left: 0%; /* Add this line to adjust the position to the left */
 }
+
 .menu_sc-item {
   display: grid;
   gap: 1rem 2rem;
