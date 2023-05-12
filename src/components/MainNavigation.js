@@ -23,7 +23,7 @@ const MainNavigation = () => {
                 isActive ? classes.active : undefined
               }
             >
-              Couples
+              Show Couples
             </NavLink>
           </li>
           <li>
@@ -33,17 +33,7 @@ const MainNavigation = () => {
                 isActive ? classes.active : undefined
               }
             >
-              Fathers
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="mothers"
-              className={({ isActive }) =>
-                isActive ? classes.active : undefined
-              }
-            >
-              Mothers
+              Show Review
             </NavLink>
           </li>
           <li>
@@ -53,7 +43,7 @@ const MainNavigation = () => {
                 isActive ? classes.active : undefined
               }
             >
-              Socials
+              Show Socials
             </NavLink>
           </li>
           <li>

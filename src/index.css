@@ -132,3 +132,34 @@ p {
     width: 95vw;
   }
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.home-container div {
+  font-size: 5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-top: 200px;
+  color: red;
+}
+
+.container {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.fullscreen-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

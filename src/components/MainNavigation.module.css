@@ -9,13 +9,20 @@
 .list {
   display: flex;
   gap: 1rem;
+  margin-top: 4.3rem; /* Add margin-top to adjust position */
+  margin-left: 5rem; /* Add margin-left to adjust position */
 }
 
 .list a {
   text-decoration: none;
   color: var(--color-primary-400);
   color: rgb(218, 36, 36);
-  font-weight: bold; /* Add this line */
+  font-weight: bold;
+  background-color: var(
+    --color-primary-400
+  ); /* Add this line for background color */
+  padding: 0.5rem 1rem; /* Add padding for the button */
+  border-radius: 4px; /* Add border radius for rounded corners */
 }
 
 .list a:hover,
