@@ -201,8 +201,8 @@ Sidebar
   top: 30px;
   left: 2px;
   width: 50px;
-  margin-top: -13rem;
-  height: calc(100% - 50px);
+  margin-top: -4rem;
+  height: calc(100% - 180px);
   background: var(--clr-white);
   display: grid;
   grid-template-rows: auto 1fr auto;
