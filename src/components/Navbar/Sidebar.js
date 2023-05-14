@@ -1,9 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from "./logo.svg";
 import { useGlobalContext } from "./context";
 import { FaTimes } from "react-icons/fa";
 import { social, links } from "./data";
 import "./Navbar.css";
+import classes from "../MainNavigation.module.css";
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
@@ -21,10 +23,10 @@ const Sidebar = () => {
           const { id, url, text, icon } = link;
           return (
             <li key={id}>
-              <a href={url}>
+              <NavLink to={url} end>
                 {icon}
                 {text}
-              </a>
+              </NavLink>
             </li>
           );
         })}
