@@ -1,14 +1,21 @@
-import { Outlet } from "react-router-dom";
-import MainNavigation from "./MainNavigation";
+import { Outlet, useLocation } from "react-router-dom";
 import classes from "./Root.module.css";
+import MainNavigation from "./MainNavigation";
+
 const RootLayout = () => {
+  const location = useLocation();
+
+  // Check if the current route is the home page
+  const isHomePage = location.pathname === "/";
+
   return (
     <>
-      <MainNavigation />
+      {!isHomePage && <MainNavigation />}
       <main className={classes.content}>
         <Outlet />
       </main>
     </>
   );
 };
+
 export default RootLayout;

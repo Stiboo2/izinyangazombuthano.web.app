@@ -11,7 +11,12 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <div>Ikhaya le ZiNyanga</div>
+        <div className="containera">
+          {"\n"}
+          {"\n"}
+          Ikhaya le ZiNyanga
+        </div>
+
         <button onClick={openSidebar} className="sidebar-toggle">
           <FaBars />
         </button>

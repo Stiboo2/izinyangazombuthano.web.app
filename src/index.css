@@ -149,6 +149,9 @@ body {
   margin-top: 50px;
   color: red;
 }
+.containera {
+  white-space: pre;
+}
 
 .container {
   position: relative;
