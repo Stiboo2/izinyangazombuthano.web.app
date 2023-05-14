@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "./logo.svg";
+
+import log2 from "./log2.jpg";
 import { useGlobalContext } from "./context";
 import { FaTimes } from "react-icons/fa";
 import { social, links } from "./data";
@@ -13,7 +14,8 @@ const Sidebar = () => {
   return (
     <aside className={`${isSidebarOpen ? "sidebar show-sidebar" : "sidebar"}`}>
       <div className="sidebar-header">
-        <img src={logo} className="logo" alt="coding addict" />
+        <img src={log2} className="logo" alt="addict" />
+
         <button className="close-btn" onClick={closeSidebar}>
           <FaTimes />
         </button>
