@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Socials.css";
 const Categories = ({ categories, filterItems }) => {
   console.log(categories);
   return (

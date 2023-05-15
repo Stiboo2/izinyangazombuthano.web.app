@@ -56,7 +56,7 @@ const Mothers = () => {
   }
 
   return (
-    <section className="sectionm" style={{ marginLeft: "-20vw" }}>
+    <section className="sectionm" style={{ marginLeft: "-10vw" }}>
       <Title text="Our Mothers" />
 
       <div className="sectionm-center" style={{ marginLeft: "15%" }}>

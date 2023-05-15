@@ -125,6 +125,8 @@ p {
   width: 90vw;
   margin: 1rem auto;
   max-width: var(--max-width);
+
+  margin-top: -8rem;
 }
 
 @media screen and (min-width: 992px) {
