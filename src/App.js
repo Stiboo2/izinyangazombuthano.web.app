@@ -8,6 +8,7 @@ import Error from "./components/Error";
 import Reviews from "./components/Review/Reviews";
 import Socials from "./components/Events/Socials";
 import Mothers from "./components/Mothers/Mothers";
+import UnauthorizedPage from "./components/NotAuthorised/NotAuthorised";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "review", element: <Reviews /> },
       { path: "socials", element: <Socials /> },
       { path: "mothers", element: <Mothers /> },
+      { path: "unauthorizedpage", element: <UnauthorizedPage /> },
     ],
   },
 ]);

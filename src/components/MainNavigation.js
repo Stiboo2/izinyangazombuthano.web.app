@@ -66,6 +66,16 @@ const MainNavigation = () => {
               Birthdays
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="unauthorizedpage"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Church Database
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
