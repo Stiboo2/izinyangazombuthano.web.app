@@ -33,19 +33,19 @@ export const links = [
     icon: <FaMale />,
   },
   {
-    id: 3,
+    id: 4,
     url: "/mothers",
     text: "Mothers",
     icon: <FaFemale />,
   },
   {
-    id: 4,
+    id: 5,
     url: "/socials",
     text: "Socials",
     icon: <FaCalendarAlt />,
   },
   {
-    id: 5,
+    id: 6,
     url: "/birthday",
     text: "Birthdays",
     icon: <FaWpforms />,
